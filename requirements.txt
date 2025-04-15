@@ -1,0 +1,52 @@
+# Core ML/CV
+
+torch
+
+torchvision
+
+opencv-python
+
+open3d
+
+scikit-image
+
+scipy
+
+numpy
+
+# Visualization
+
+matplotlib
+
+# Image Handling
+
+Pillow
+
+pillow_heif
+
+# LLM Integration
+
+ollama
+
+# ML Models & Utilities
+
+timm
+
+mediapipe # For hand pose estimation
+
+# Configuration
+
+PyYAML # Likely needed for calibration or configs
+
+# Jupyter Environment
+
+ipykernel
+
+
+# Note: The ml-depth-pro package must be installed separately
+
+# using the provided bash script:
+
+# chmod +x install_depth_pro.sh
+
+# ./install_depth_pro.sh
