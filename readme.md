@@ -1,4 +1,4 @@
-# OMGrab - Video Annotation Toolkit
+<h1><img src="public/assets/OMGrab_logo_nobackground.jpg" alt="OMGrab Logo" width="50"/> OMGrab - Video Annotation Toolkit</h1>
 
 This project provides tools and notebooks for annotating video streams with various types of information, including text overlays, 3D point clouds derived from depth estimation, and hand pose tracking.
 
@@ -8,6 +8,19 @@ This project provides tools and notebooks for annotating video streams with vari
 *   **Hand Pose Estimation:** Leverages Google's [MediaPipe](https://developers.google.com/mediapipe) library for real-time hand tracking and pose estimation within video frames.
 *   **Text Annotation:** Use open source image to text models to annotate video frames in a K-shot learning fashion.
 *   **Stereo Calibration:** Includes tools for calibrating stereo camera setups and extracting intrinsic and extrinsic parameters.
+
+## Hardware
+
+Example recording hardware:
+
+<p align="center">
+    <img src="public/assets/OMGlasses_V3.PNG" alt="OMGlasses Stereo" width="300"/>
+    <img src="public/assets/OMGlasses_V2.PNG" alt="OMGlasses Mono" width="300"/>
+</p>
+<p align="center">OMGlasses Stereo and OMGlasses Mono</p>
+
+<p align="center"><img src="public/assets/glasses_amb_mono.jpg" alt="OMGlasses Mono" width="300"/></p>
+<p align="center">3D printed OMGlasses Mono</p>
 
 ## Project Structure
 
@@ -38,6 +51,40 @@ This project provides tools and notebooks for annotating video streams with vari
 *   **Create Point Cloud Videos:** Utilize the later cells in `point_cloud.ipynb` to render videos from sequences of `.ply` files, experimenting with different camera views and resolutions.
 *   **Hand Tracking:** Perform hand pose estimation on a video source using the `multimodal_annotation.ipynb` notebook.
 *   **Video Annotation:** Combine outputs or use functionalities to overlay text, point clouds, or hand poses onto a video using the `multimodal_annotation.ipynb` notebook.
+
+## Examples
+
+Sample image processing outputs:
+
+**Grab Action:**
+
+<p align="center">
+<table>
+  <tr>
+    <td><img src="public/assets/grab_image.png" alt="Grab Image" width="250"/></td>
+    <td><img src="public/assets/grab_pointcloud.png" alt="Grab Point Cloud" width="250"/></td>
+  </tr>
+  <tr>
+    <td align="center"><em>Original Image</em></td>
+    <td align="center"><em>Generated Point Cloud</em></td>
+  </tr>
+</table>
+</p>
+
+**Reach Action:**
+
+<p align="center">
+<table>
+  <tr>
+    <td><img src="public/assets/reach_image.png" alt="Reach Image" width="250"/></td>
+    <td><img src="public/assets/reach_pointcloud.png" alt="Reach Point Cloud" width="250"/></td>
+  </tr>
+  <tr>
+    <td align="center"><em>Original Image</em></td>
+    <td align="center"><em>Generated Point Cloud</em></td>
+  </tr>
+</table>
+</p>
 
 ## Contributing
 
