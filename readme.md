@@ -86,6 +86,13 @@ Sample image processing outputs:
 </table>
 </p>
 
+**Text Annotation:**
+
+<p align="center">
+<img src= "public/assets/text_annotations.jpeg" alt="Text Annotations" width="600"/>
+<p align="center">Example of text annotations</p>
+</p>
+
 ## Contributing
 
 Contributions are welcome! Please feel free to submit pull requests or open issues.

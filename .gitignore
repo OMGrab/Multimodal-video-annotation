@@ -2,3 +2,6 @@ media/
 #model weights
 models/
 .DS_Store
+ml-depth-pro/
+FoundationStereo/
+
